@@ -1,0 +1,26 @@
+{
+  "element_load_time": 1,
+  "iframe_load_time": 5,
+  "http_request_wait_time": 60,
+  "page_load_time": 30,
+  "retry_delay": 0.5,
+
+  "driver_configurations": {
+    "browserSize": "1012x640",
+    "browserName": "chrome",
+    "platform": "ANY",
+    "version": "",
+    "goog:chromeOptions": {
+      "prefs": {
+        "safebrowsing.enabled": "True",
+        "credentials_enable_service": "False",
+        "profile": {
+          "password_manager_enabled": "False"
+        }
+      }
+    },
+    "loggingPrefs": {
+      "browser": "ALL"
+    }
+  }
+}
